@@ -1,5 +1,6 @@
 
 import sys
+
 n = int(input().strip())
 p=n-1
 for i in range(n):
