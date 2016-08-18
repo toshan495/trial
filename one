@@ -1,0 +1,9 @@
+
+import sys
+n = int(input().strip())
+p=n-1
+for i in range(n):
+    for j in range(p):print(" ",end="")
+    for k in range(i+1):print("#",end="")
+    p-=1;    
+    print("");
